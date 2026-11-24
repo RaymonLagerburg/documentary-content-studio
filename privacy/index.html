@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Documentary Content Studio</title>
+<style>
+  :root { --ink:#1d1d1f; --muted:#5b5b60; --line:#e3e1dc; --bg:#faf9f6; --accent:#8a5a14; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.6 Georgia, "Times New Roman", serif; }
+  main { max-width:760px; margin:0 auto; padding:48px 20px 80px; }
+  h1 { font-size:30px; margin:0 0 4px; }
+  .date { color:var(--muted); margin:0 0 28px; }
+  h2 { font-size:19px; margin:30px 0 6px; border-top:1px solid var(--line); padding-top:20px; }
+  table { border-collapse:collapse; width:100%; font-size:15px; }
+  th, td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <p style="margin:0 0 18px"><a href="/">&larr; Documentary Content Studio</a></p>
+  <h1>Privacy Policy</h1>
+  <p class="date">Documentary Content Studio · effective 24 November 2026</p>
+
+  <h2>1. Who we are and who uses this tool</h2>
+  <p>Documentary Content Studio ("the studio") operates a private software tool that manages the studio's own YouTube
+  channels. The tool is used only by the studio's owner, who owns or manages every channel it connects to. It is not
+  offered to anyone else.</p>
+
+  <h2>2. YouTube API Services</h2>
+  <p>This tool uses <strong>YouTube API Services</strong>. By connecting a channel to the tool, the user agrees to be
+  bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is
+  described in the <a href="http://www.google.com/policies/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>3. What data the tool accesses and why</h2>
+  <table>
+    <tr><th>Permission (Google scope)</th><th>What it allows</th><th>What we use it for</th></tr>
+    <tr><td>youtube.readonly</td><td>View the connected channel and its videos</td>
+        <td>Confirm the right channel is connected; list the channel's own uploads to prevent duplicate uploads</td></tr>
+    <tr><td>yt-analytics.readonly</td><td>View YouTube Analytics reports for the connected channel</td>
+        <td>Views, watch time and audience-retention curves of the studio's own videos, to evaluate and improve future videos</td></tr>
+    <tr><td>youtube.upload</td><td>Upload videos</td><td>Upload finished videos to the studio's own channel as <strong>private</strong> videos</td></tr>
+    <tr><td>youtube.force-ssl</td><td>Manage videos, captions and playlists</td>
+        <td>Add captions and a playlist to those private videos; for a Short only, set a publication time after the
+        owner's explicit approval of that video and time. The tool contains no function that deletes videos, captions or comments.</td></tr>
+  </table>
+  <p>The tool does not access messages, subscriber lists, monetization or payment data, or any channel that the owner
+  does not own or manage.</p>
+
+  <h2>4. How the data is processed</h2>
+  <ul>
+    <li>All YouTube API data is stored only on the owner's own computer.</li>
+    <li><strong>AI assistant (Anthropic):</strong> the owner uses Claude Code, an AI assistant provided by Anthropic, to
+      run the studio. When the owner asks the assistant to look at the channels' statistics, the relevant data (for
+      example a video's views or retention values) is sent to Anthropic's servers so that the assistant can answer, and
+      is processed under Anthropic's terms and privacy policy. This happens only on the owner's request, only for the
+      owner's own channels, and the answers are seen only by the owner. Anthropic acts as an agent approved by the owner;
+      the data is not published or passed on by the studio.</li>
+    <li><strong>No derived metrics:</strong> the tool shows YouTube's official values unchanged. It does not create new or
+      derived metrics, scores or averages from YouTube API data. The studio's own editorial predictions (for example
+      which moments of a video it expected viewers to leave) are kept and shown separately, clearly marked as the studio's own.</li>
+    <li><strong>Only the official API:</strong> the tool accesses YouTube exclusively through the official YouTube Data
+      and Analytics APIs. It does not scrape YouTube or Google pages, does not use YouTube autocomplete, and does not
+      download YouTube videos or captions.</li>
+    <li>YouTube API data is not sent to any other service. Research tools the studio uses for topic ideas receive only
+      search terms, never YouTube API data from this tool.</li>
+    <li>The studio does not sell, rent or share YouTube API data, does not use it for advertising, and does not combine
+      it with data about any person.</li>
+  </ul>
+
+  <h2>5. Storage and retention</h2>
+  <ul>
+    <li><strong>Sign-in tokens</strong> (OAuth refresh tokens) are stored only on the owner's computer, in a local folder
+      of the tool. They are never printed, e-mailed or uploaded anywhere, and are sent only to Google's sign-in service.</li>
+    <li><strong>YouTube Analytics data</strong> (statistics and retention reports) is kept as long as it is needed to
+      evaluate the studio's videos. The tool re-confirms at least every 30 days that it is still authorized, and always
+      before using stored data again after a pause of more than a day (for example when the computer was switched off).
+      If authorization cannot be confirmed for 30 days, all YouTube API data and tokens for that channel are deleted.</li>
+    <li><strong>Other YouTube API data</strong> (such as video titles from the channel's upload list) is refreshed within
+      30 days; if it is not refreshed, it is deleted.</li>
+    <li>This website uses no cookies, no analytics and no advertising.</li>
+  </ul>
+
+  <h2>6. Revoking access and deleting data</h2>
+  <p>Access can be revoked at any time via the Google security settings page:
+  <a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>.
+  When access is revoked through the tool, the token is revoked at Google immediately and the stored tokens and
+  YouTube API data for that channel are deleted at once (at the latest within 7 days). When access is revoked through
+  Google's page, the tool detects that the token no longer works and deletes the stored data within 30 days. Deletion
+  can also be requested by e-mail (below) and is completed within 7 days.</p>
+
+  <h2>7. Contact</h2>
+  <p>Questions about this policy or the tool: <a href="mailto:contentstudiorml@gmail.com">contentstudiorml@gmail.com</a></p>
+
+  <h2>8. Changes</h2>
+  <p>Changes to this policy are published on this page with a new effective date.</p>
+</main>
+</body>
+</html>
